@@ -1,0 +1,26 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "practice jwt auth in nodejs (expressJS)",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otmanet/jwt-authentication-expressJs.git"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "nothig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otmanet/jwt-authentication-expressJs/issues"
+  },
+  "homepage": "https://github.com/otmanet/jwt-authentication-expressJs#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
