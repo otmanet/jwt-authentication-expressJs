@@ -20,6 +20,9 @@ app.use(express.json());
 // Middleware to parse URL-encoded data from the request body, with `extended` set to `false` to use the querystring library
 app.use(express.urlencoded({ extended: false }));
 
+// Disable the 'X-Powered-By' header in the HTTP response
+app.disable("x-powered-by");
+
 // Use the index routes for any requests that start with "/api"
 app.use("/api", indexRoutes);
 
